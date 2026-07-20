@@ -129,6 +129,4 @@ netflix-content-analytics/
 
 Physics Engineer
 
-LinkedIn: *(lo agregaremos después)*
-
-GitHub: *(lo agregaremos después)*
+LinkedIn: https://www.linkedin.com/in/adrian-santillan-data/es
