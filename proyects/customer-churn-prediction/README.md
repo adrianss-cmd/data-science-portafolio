@@ -1,9 +1,5 @@
 # 📉 Customer Churn Prediction using Machine Learning
 
-<p align="center">
-<img src="images/feature_importance.png" width="750">
-</p>
-
 Predicting customer churn is one of the most important applications of machine learning in customer relationship management. In this project, multiple classification algorithms are developed and compared to identify customers who are likely to leave a telecommunications company.
 
 The project follows a complete data science workflow, including exploratory data analysis, data preprocessing, model development, model evaluation, feature importance analysis, and business recommendations.
