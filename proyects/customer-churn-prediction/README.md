@@ -80,6 +80,16 @@ The analysis revealed that:
 
 ---
 
+### Correlation Heatmap
+
+<p align="center">
+  <img src="images/correlation_heatmap.png" width="700">
+</p>
+
+The correlation matrix provides an overview of the relationships between numerical variables. Most feature pairs exhibit weak to moderate correlations, suggesting limited multicollinearity. This indicates that the features capture different aspects of customer behavior and can provide complementary information to the machine learning models.
+
+---
+
 ## 🤖 Machine Learning Models
 
 The following classification algorithms were trained and evaluated:
