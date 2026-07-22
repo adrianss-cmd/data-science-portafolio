@@ -67,6 +67,12 @@ Business Recommendations
 
 ## 📈 Exploratory Data Analysis
 
+### Churn Distribution
+
+<p align="center">
+<img src="images/churn_distribution.png" width="550">
+</p>
+
 The exploratory analysis focused on understanding customer behavior and identifying variables associated with churn.
 
 The analysis revealed that:
@@ -103,6 +109,10 @@ Random Forest achieved the best overall predictive performance and was selected 
 ---
 
 ## 📌 Feature Importance
+
+<p align="center">
+<img src="images/feature_importance.png" width="700">
+</p>
 
 The Random Forest model identified the following variables as the most influential predictors of customer churn:
 
