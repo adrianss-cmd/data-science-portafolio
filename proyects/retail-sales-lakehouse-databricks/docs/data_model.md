@@ -31,31 +31,29 @@ This document describes the relationships between all tables contained in the Ol
 ---
 ### Relationship Diagram
 
-Customers
-    1
-    │
-    │
-    1
-  Orders
-    1
-    │
-    ├───────────────┐
-    │               │
-    N               N
-Order Items      Payments
-   │   │
-   │   │
-   N   N
-   │   │
-   1   1
-Products Sellers
+## Relationship Diagram
 
-Orders
-   1
-   │
-   N
-Reviews
+```text
+                  Customers
+                      │
+                      │ (1:N)
+                      ▼
+                   Orders
+                  /      \
+                 /        \
+             (1:N)      (1:N)
+               ▼           ▼
+        Order Items     Payments
+          /      \
+     (N:1)      (N:1)
+        ▼          ▼
+    Products    Sellers
 
+                   │
+                 (1:N)
+                   ▼
+                Reviews
+```
 ---
 
 ### Referential Integrity Validation
