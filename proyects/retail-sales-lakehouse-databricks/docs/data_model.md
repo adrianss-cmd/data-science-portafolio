@@ -64,3 +64,19 @@ This document describes the relationships between all tables contained in the Ol
 | Order Items → Orders | ✅ No orphan records |
 | Order Items → Products | ✅ No orphan records |
 | Order Items → Sellers | ✅ No orphan records |
+
+---
+## Proposed Gold Layer
+
+### Fact Tables
+
+- fact_sales
+- fact_payments
+- fact_reviews
+
+### Dimension Tables
+
+- dim_customer
+- dim_product
+- dim_seller
+- dim_date
